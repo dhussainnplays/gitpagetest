@@ -1,5 +1,0 @@
-{
-  "apiKey": "AIzaSyB7GoEWnk-5Uxpqojltac01KerhSV_u1c4",
-  "authDomain": "kareemandsugar-35884.firebaseapp.com",
-  "databaseURL": "https://kareemandsugar-35884-default-rtdb.firebaseio.com"
-}
