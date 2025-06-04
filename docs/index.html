@@ -4,7 +4,27 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>KareemSugar</title>
-    
+    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-auth-compat.js"></script>
+
+    <!-- Optionally: Add other Firebase services you need (e.g., database, firestore, etc.) -->
+
+    <script>
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+      apiKey: "AIzaSyB7GoEWnk-5Uxpqojltac01KerhSV_u1c4",
+      authDomain: "kareemandsugar-35884.firebaseapp.com",
+      databaseURL: "https://kareemandsugar-35884-default-rtdb.firebaseio.com",
+      projectId: "kareemandsugar-35884",
+      storageBucket: "kareemandsugar-35884.firebasestorage.app",
+      messagingSenderId: "633289654817",
+      appId: "1:633289654817:web:1afa8f554fc95f2fc4d960",
+      measurementId: "G-8QLXJN19FT"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=375 height=667 tabindex="-1" style="width: 375px; height: 667px; background: #231F20"></canvas>
